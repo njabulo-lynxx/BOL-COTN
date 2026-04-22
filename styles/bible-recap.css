@@ -13,8 +13,10 @@ p {
 }
 
 .subtopic {
+  font-size: 24px;
   font-weight: bold;
   font-style: italic;
+  margin-bottom: 5px;
 }
 
 li {
@@ -22,4 +24,23 @@ li {
   width: 300px;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.video {
+  margin-bottom: 20px;
+}
+
+.video-author {
+  color: rgb(6, 219, 223);
+  font-weight: 600;
+  display: block;
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+
+.video-title {
+  color: rgb(128, 83, 0);
+  display: block;
+  font-size: 16px;
+  margin-bottom: 3px;
 }
