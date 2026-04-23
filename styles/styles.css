@@ -1,0 +1,124 @@
+header {
+  font-family: Arial;
+  border-width: 1px;
+  border-style: solid;
+  border-color: blue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.website-name {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.bible-study {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.website-verse {
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+main {
+  border-width: 1px;
+  border-style: solid;
+  border-color: blue;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.body {
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.title {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.subtopic {
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+li {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.video {
+  margin-bottom: 20px;
+}
+
+.video-author {
+  color: rgb(6, 219, 223);
+  font-weight: 600;
+  display: block;
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+
+.video-title {
+  color: rgb(128, 83, 0);
+  display: block;
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+
+footer {
+  border-width: 1px;
+  border-style: solid;
+  border-color: blue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.creator {
+  text-align: center;
+}
+
+.footer {
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
