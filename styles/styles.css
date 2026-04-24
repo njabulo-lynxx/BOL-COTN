@@ -21,6 +21,7 @@ header {
 
 .website-verse {
   border-width: 1px;
+  border-radius: 10px;
   border-style: solid;
   border-color: red;
   padding-top: 5px;
@@ -46,6 +47,7 @@ main {
 
 .body {
   border-width: 1px;
+  border-radius: 10px;
   border-style: solid;
   border-color: red;
   padding-top: 5px;
@@ -115,6 +117,7 @@ footer {
 
 .footer {
   border-width: 1px;
+  border-radius: 10px;
   border-style: solid;
   border-color: red;
   padding-top: 5px;
