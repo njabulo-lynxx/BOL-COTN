@@ -3,13 +3,13 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background-color: #333;
-      padding: 15px 30px;
+      background-color: var(--text-color);
+      padding: 25px 30px;
     }
 
     /* Logo Styling */
     .nav-logo a {
-      color: #fff;
+      color: var(--background-color);
       font-size: 24px;
       font-weight: bold;
       text-decoration: none;
@@ -28,7 +28,7 @@
 
     /* Style for Anchor Tags */
     .nav-links a {
-      color: #fff;
+      color: var(--background-color);
       text-decoration: none;
       font-size: 18px;
       padding: 8px 15px;
@@ -38,11 +38,11 @@
 
     /* Hover effect for links */
     .nav-links a:hover {
-      background-color: #575757;
-      color: #ffd700;
+      background-color: rgb(87, 87, 87);
+      color: rgb(255, 217, 0);
     }
 
     /* Highlight class for the current active page */
     .nav-links a.active {
-      background-color: #04AA6D;
+      background-color: rgb(4, 170, 109);
     }

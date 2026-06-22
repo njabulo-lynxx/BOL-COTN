@@ -1,0 +1,60 @@
+/* Footer Styles */
+.site-footer {
+    background-color: var(--text-color);
+    color: var(--background-color);
+    padding: 40px 20px 20px 20px;
+}
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+}
+.footer-column h3 {
+    color: rgb(0, 172, 181);
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-column li {
+    margin-bottom: 10px;
+}
+.footer-column a {
+    color: rgb(204, 204, 204);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.footer-column a:hover {
+    color: rgb(255, 255, 255);
+}
+
+/* Bottom Bar (Copyright & Legal) */
+.footer-bottom {
+    max-width: 1200px;
+    margin: 30px auto 0 auto;
+    padding-top: 20px;
+    border-top: 1px solid rgb(51, 51, 51);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: rgb(130, 130, 130);
+}
+.footer-legal-links a {
+    color: rgb(136, 136, 136);
+    text-decoration: none;
+    margin-left: 15px;
+}
+.footer-legal-links a:hover {
+    color: var(--background-color);
+}
