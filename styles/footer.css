@@ -30,8 +30,6 @@
     margin-bottom: 10px;
 }
 .footer-column a {
-    color: rgb(204, 204, 204);
-    text-decoration: none;
     transition: color 0.3s ease;
 }
 .footer-column a:hover {
@@ -52,7 +50,6 @@
 }
 .footer-legal-links a {
     color: rgb(136, 136, 136);
-    text-decoration: none;
     margin-left: 15px;
 }
 .footer-legal-links a:hover {
