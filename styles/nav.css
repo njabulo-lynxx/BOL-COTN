@@ -7,6 +7,23 @@
   padding: 25px 30px;
 }
 
+/* Navigation Bar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--text-color);
+  padding: 25px 30px;
+}
+
+/* Logo Styling */
+.nav-logo a {
+  color: var(--background-color);
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 /* Logo Styling */
 .nav-logo a {
   font-size: 24px;
@@ -19,9 +36,30 @@
   list-style: none;
 }
 
+/* Navigation Links List */
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
 /* Individual List Items */
 .nav-links li {
   margin-left: 20px;
+}
+
+/* Individual List Items */
+.nav-links li {
+  margin-left: 20px;
+}
+
+/* Style for Anchor Tags */
+.nav-links a {
+  color: var(--background-color);
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 15px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 4px;
 }
 
 /* Style for Anchor Tags */
@@ -36,6 +74,17 @@
 .nav-links a:hover {
   background-color: rgb(87, 87, 87);
   color: rgb(255, 217, 0);
+}
+
+/* Hover effect for links */
+.nav-links a:hover {
+  background-color: rgb(87, 87, 87);
+  color: rgb(255, 217, 0);
+}
+
+/* Highlight class for the current active page */
+.nav-links a.active {
+  background-color: rgb(4, 170, 109);
 }
 
 /* Highlight class for the current active page */
