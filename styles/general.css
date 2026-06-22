@@ -1,7 +1,6 @@
 :root {
   --background-color: rgb(245, 245, 245);
-  --text-color: rgba(30, 30, 30);
-  --link-color: rgb(44, 118, 192);
+  --text-color: rgb(26, 26, 26);
 }
 
 /* Reset default browser margins and padding*/
@@ -21,12 +20,12 @@ body {
   background-color: var(--background-color);
   max-width: 1400px;
   margin: 0 auto;
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  min-height: 100vh; */
+  min-height: 100vh;
 }
 
 a {
-  color: var(--link-color);
+  color: #cccccc;
   text-decoration: none;
 }
