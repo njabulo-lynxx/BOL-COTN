@@ -5,15 +5,8 @@
   align-items: center;
   background-color: var(--text-color);
   padding: 25px 30px;
-}
-
-/* Navigation Bar Container */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: var(--text-color);
-  padding: 25px 30px;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 /* Logo Styling */
@@ -21,23 +14,18 @@
   color: var(--background-color);
   font-size: 24px;
   font-weight: bold;
-  text-decoration: none;
-}
-
-/* Logo Styling */
-.nav-logo a {
-  font-size: 24px;
-  font-weight: bold;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 /* Navigation Links List */
 .nav-links {
   display: flex;
-  list-style: none;
+  flex-shrink: 1;
+  flex-grow: 1;
 }
 
-/* Navigation Links List */
-.nav-links {
+.nav-links ul {
   display: flex;
   list-style: none;
 }
@@ -45,21 +33,6 @@
 /* Individual List Items */
 .nav-links li {
   margin-left: 20px;
-}
-
-/* Individual List Items */
-.nav-links li {
-  margin-left: 20px;
-}
-
-/* Style for Anchor Tags */
-.nav-links a {
-  color: var(--background-color);
-  text-decoration: none;
-  font-size: 18px;
-  padding: 8px 15px;
-  transition: background-color 0.3s ease, color 0.3s ease;
-  border-radius: 4px;
 }
 
 /* Style for Anchor Tags */
@@ -76,21 +49,72 @@
   color: rgb(255, 217, 0);
 }
 
-/* Hover effect for links */
-.nav-links a:hover {
-  background-color: rgb(87, 87, 87);
-  color: rgb(255, 217, 0);
-}
-
 /* Highlight class for the current active page */
 .nav-links a.active {
   background-color: rgb(4, 170, 109);
 }
 
-/* Highlight class for the current active page */
-.nav-links a.active {
-  background-color: rgb(4, 170, 109);
+/* Responsive Design for Tablets and Small Devices */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 15px 20px;
+    gap: 15px;
+  }
+
+  .nav-logo a {
+    font-size: 20px;
+  }
+
+  .nav-links ul {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .nav-links li {
+    margin-left: 10px;
+  }
+
+  .nav-links a {
+    font-size: 16px;
+    padding: 6px 12px;
+  }
 }
 
-/**************************************************/
-/* Testing flexbox nav */
+/* Responsive Design for Mobile Devices */
+@media (max-width: 480px) {
+  .navbar {
+    padding: 10px 15px;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .nav-logo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .nav-logo a {
+    font-size: 18px;
+  }
+
+  .nav-links {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .nav-links ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .nav-links li {
+    margin-left: 0;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+}
