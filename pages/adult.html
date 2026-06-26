@@ -4,35 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Adult</title>
+    <title>Adult Ministry</title>
 
     <link rel="stylesheet" href="../styles/general.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <link rel="stylesheet" href="../styles/nav.css">
+    <link rel="stylesheet" href="../styles/header.css">
     <link rel="stylesheet" href="../styles/footer.css">
   </head>
   <body>
 
-    <!-- Semantic Header Start -->
+    <!-- Semantic Header start -->
     <header>
+       <!-- Semantic HTML5 Nav Element -->
       <nav class="navbar">
         <div class="nav-logo">
-          <a href="#">Adult</a>
+          <a href="#">Adult Ministry</a>
         </div>
-        <ul class="nav-links">
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="./services.html">Services</a></li>
-          <li><a href="#">??</a></li>
-          <li><a href="#">??</a></li>
-        </ul>
+
+        <div>
+          <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+
+            <!-- This list item acts as the dropdown trigger -->
+            <li class="dropdown">
+              <a href="#" class="active">Services</a>
+              <!-- Nested dropdown menu -->
+              <ul class="dropdown-menu">
+                  <li><a href="./adult.html">Adult</a></li>
+                  <li><a href="./youth.html">Youth</a></li>
+                  <li><a href="./children.html">Children</a></li>
+              </ul>
+            </li>
+
+            <li><a href="#">About</a></li>
+            <li><a href="#">News</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
-    <!-- Semantic Header End -->
+    <!-- Semantic Header end -->
 
+    <!-- Semantic Main start -->
     <main>
-      <img src="../img/img_under-construction.jpg" alt="under construction" width="100%">
-    </main>
 
-    <footer></footer>
+      <!-- Add details about church -->
+      <section style="height: 500px; border: 1px solid red;">
+          <h2>About Section</h2>
+      </section>
+      
+      <!-- Add news about this ministry -->
+      <section style="height: 500px; border: 1px solid blue;">
+          <h2>News</h2>
+      </section>
+    </main>
+    <!-- Semantic Main end -->
+
+    <!-- Semantic Footer start -->
+    <footer class="site-footer">
+
+      <!-- Bottom bar for Legal and Copyright -->
+      <div class="footer-bottom">
+          <div>
+              &copy; 2026 Bread of Life. All rights reserved.
+          </div>
+
+          <div class="footer-legal-links">
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms of Service</a>
+              <a href="#">Cookie Settings</a>
+          </div>
+      </div>
+    </footer>
+    <!-- Semantic Footer end -->
+
   </body>
 </html>

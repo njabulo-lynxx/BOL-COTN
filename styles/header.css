@@ -1,12 +1,17 @@
+header {
+  margin-bottom: 100px;
+}
+
 /* Navigation Bar Container */
 .navbar {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   background-color: var(--background-color);
   padding: 25px 30px;
   flex-wrap: wrap;
   gap: 20px;
+  position: fixed;
+  width: 100%;
 }
 
 /* Logo Styling */
