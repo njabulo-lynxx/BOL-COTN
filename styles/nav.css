@@ -2,8 +2,8 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  background-color: var(--text-color);
+  /* align-items: center; */
+  background-color: var(--background-color);
   padding: 25px 30px;
   flex-wrap: wrap;
   gap: 20px;
@@ -11,21 +11,21 @@
 
 /* Logo Styling */
 .nav-logo a {
-  color: var(--background-color);
+  color: var(--text-color);
   font-size: 24px;
   font-weight: bold;
   white-space: nowrap;
   flex-shrink: 0;
+  justify-content: left;
+  text-decoration: none;
 }
 
 /* Navigation Links List */
 .nav-links {
   display: flex;
+  justify-content: right;
   flex-shrink: 1;
   flex-grow: 1;
-}
-
-.nav-links ul {
   display: flex;
   list-style: none;
 }
@@ -41,6 +41,46 @@
   padding: 8px 15px;
   transition: background-color 0.3s ease, color 0.3s ease;
   border-radius: 4px;
+}
+
+.nav-links a {
+  display: block;
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* 1. REQUIRED: Position relative on the parent li container */
+.dropdown {
+  position: relative;
+}
+
+/* 2. REQUIRED: Hide the dropdown list by default and position it absolute */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%; /* Places it directly below the navbar link */
+  left: 0;
+  background-color: var(--background-color);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  min-width: 140px; /* Ensures a consistent box size */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Stack dropdown list items vertically */
+.dropdown-menu li {
+  width: 80%;
+}
+
+.dropdown-menu a {
+  padding-left: 0;
+}
+
+/* THE MAGIC: Display the sub-menu when hovering over the parent li */
+.dropdown:hover .dropdown-menu {
+  display: block;
 }
 
 /* Hover effect for links */

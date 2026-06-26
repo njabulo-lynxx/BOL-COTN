@@ -1,7 +1,7 @@
 /* Footer Styles */
 .site-footer {
-    background-color: var(--text-color);
-    color: var(--background-color);
+    background-color: var(--background-color);
+    color: var(--text-color);
     padding: 40px 20px 20px 20px;
 }
 .footer-container {
@@ -56,5 +56,5 @@
     margin-left: 15px;
 }
 .footer-legal-links a:hover {
-    color: var(--background-color);
+    color: var(--text-color);
 }
