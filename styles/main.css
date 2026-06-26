@@ -1,0 +1,11 @@
+/* Youth Ministry styling */
+.bible-quiz-article {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.bible-quiz-article ol{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
