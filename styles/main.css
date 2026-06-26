@@ -6,6 +6,11 @@
 }
 
 .bible-quiz-article ol{
-  margin-top: 5px;
+  margin-top: 2px;
   margin-bottom: 10px;
+}
+
+.bible-quiz-article p {
+  font-weight: bold;
+  margin-top: 15px;
 }
