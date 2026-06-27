@@ -1,45 +1,51 @@
+/* Generic Card Container */
+.card-container {
+  margin: 30px;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.card-default {
+  height: 500px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
 /* Youth Ministry styling (youth.html) */
-.bible-quiz-article {
+.card-bible-quiz {
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 15px;
   margin-right: 15px;
 }
 
-.bible-quiz-article ol{
+.card-bible-quiz ol{
   margin-top: 2px;
   margin-bottom: 10px;
 }
 
-.bible-quiz-article p {
+.card-bible-quiz p {
   font-weight: bold;
   margin-top: 15px;
 }
 
 /* Home page styling (index.html) */
-.about-section {
-  background-color: rgb(235, 235, 235);
-  border-radius: 15px;
+.card-about {
+  background-color: var(--card-background-color); 
   text-align: center;
-  margin: 20px;
-  padding-top: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px;
-  padding-left: 30px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-.about-section h2 {
+.card-about h2 {
   margin-bottom: 10px;
   font-size: 40px;
 }
 
-.about-section h3 {
+.card-about h3 {
   margin-bottom: 6px;
   font-size: 30px;
 }
 
-.about-section p {
+.card-about p {
   margin-bottom: 50px;
   font-size: 20px;
 }

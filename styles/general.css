@@ -1,6 +1,7 @@
 :root {
   --text-color: rgb(245, 245, 245);
   --background-color: rgb(26, 26, 26);
+  --card-background-color: rgb(235, 235, 235);
 }
 
 /* Reset default browser margins and padding*/
