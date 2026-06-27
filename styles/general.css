@@ -26,6 +26,6 @@ body {
 }
 
 main ol {
-  list-style: decimal;
+  list-style: Upper-alpha;
   padding-left: 1.25rem;
 }
