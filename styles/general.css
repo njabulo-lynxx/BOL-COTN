@@ -2,6 +2,13 @@
   --text-color: rgb(245, 245, 245);
   --background-color: rgb(26, 26, 26);
   --card-background-color: rgb(235, 235, 235);
+
+  --bg-color: #f4f7f6;
+  --card-bg: #ffffff;
+  --text-main: #2c3e50;
+  --text-muted: #7f8c8d;
+  --accent: #3498db;
+  --shadow: rgba(0, 0, 0, 0.05);
 }
 
 /* Reset default browser margins and padding*/
@@ -23,10 +30,12 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  height: 100vh;
   min-height: 100vh;
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 
 main ol {
-  list-style: Upper-alpha;
   padding-left: 1.25rem;
 }
