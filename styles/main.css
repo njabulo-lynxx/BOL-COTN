@@ -1,7 +1,5 @@
 /* Generic Card Container */
 .card-container,
-.card-default,
-.card-about,
 .card-bible-quiz,
 .verse-card {
   background-color: var(--card-bg);
@@ -12,27 +10,27 @@
   width: 90%;
   text-align: center;
   border-top: 5px solid var(--accent);
-  transition: transform 0.3s ease;
 }
 
-/* Home page styling (index.html) */
-.card-about h2 {
-  margin-bottom: 10px;
+.card-container h2 {
   font-size: 1.75 rem;
   color: var(--accent);
 }
 
-.card-about h3 {
-  margin-bottom: 6px;
-  font-size: 1.00 rem;
-}
-
-.card-about p {
-  margin-bottom: 50px;
-  font-size: 20px;
+.card-container h3,
+.card-container p {
+  font-size: 1.35rem;
+  line-height: 1.6;
   color: var(--text-main);
+  font-weight: 500;
 }
 
+.card-container h3 {
+  font-weight: 700;
+  margin: 1rem 0 1rem 0;
+}
+
+/* Home page styling (index.html) */
 .tag {
   text-transform: uppercase;
   font-size: 0.75rem;
@@ -59,19 +57,24 @@
 }
 
 /* Youth Ministry styling (youth.html) */
-.card-bible-quiz {
+.bible-quiz {
   margin: 2.5rem auto;
   text-align: left;
 }
 
-.card-bible-quiz ol{
-  margin-top: 2px;
-  margin-bottom: 10px;
+.bible-quiz h3 {
+  text-align: center;
 }
 
-.card-bible-quiz p {
-  font-weight: bold;
-  margin-top: 15px;
+.bible-quiz p {
+  margin-top: 1rem;
+  margin-bottom: 0.2rem;
+  line-height: 1.3;
+}
+
+.bible-quiz ol {
+  list-style: upper-alpha;
+  line-height: 2rem;
 }
 
 /* Responsive Design for Tablets and Small Devices */
