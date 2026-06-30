@@ -1,6 +1,5 @@
 /* Generic Card Container */
 .card-container,
-.card-bible-quiz,
 .verse-card {
   background-color: var(--card-bg);
   padding: 2.5rem;
@@ -30,7 +29,7 @@
   margin: 1rem 0 1rem 0;
 }
 
-/* Home page styling (index.html) */
+/* Verse of the day */
 .tag {
   text-transform: uppercase;
   font-size: 0.75rem;
@@ -54,32 +53,4 @@
   font-style: italic;
   color: var(--text-muted);
   margin: 0;
-}
-
-/* Youth Ministry styling (youth.html) */
-.bible-quiz {
-  margin: 2.5rem auto;
-  text-align: left;
-}
-
-.bible-quiz h3 {
-  text-align: center;
-}
-
-.bible-quiz p {
-  margin-top: 1rem;
-  margin-bottom: 0.2rem;
-  line-height: 1.3;
-}
-
-.bible-quiz ol {
-  list-style: upper-alpha;
-  line-height: 2rem;
-}
-
-/* Responsive Design for Tablets and Small Devices */
-@media (max-width: 500px) {
-  .verse-card {
-  max-width: 500px;
- }
 }
